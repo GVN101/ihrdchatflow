@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 to-purple-800">
+    <div className="min-h-screen bg-black">
       {showSplash ? (
         <SplashScreen onComplete={handleSplashComplete} />
       ) : (
